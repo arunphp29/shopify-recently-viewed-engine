@@ -16,11 +16,11 @@ This project demonstrates:
 
 # 🚀 Features
 
-✅ Recently viewed product tracking                  ✅ Persistent localStorage support
-✅ Dynamic frontend rendering                    ✅ Exclude current product
-✅ Exclude out-of-stock products                 ✅ Category-aware recommendations
-✅ Mobile responsive layout                      ✅ Smart personalization logic
-✅ Lightweight & theme-friendly architecture
+    ✅ Recently viewed product tracking                  ✅ Persistent localStorage support
+    ✅ Dynamic frontend rendering                        ✅ Exclude current product
+    ✅ Exclude out-of-stock products                     ✅ Category-aware recommendations
+    ✅ Mobile responsive layout                          ✅ Smart personalization logic
+    ✅ Lightweight & theme-friendly architecture
 
 ---
 
@@ -90,11 +90,6 @@ Handles:
 * localStorage persistence
 * recommendation filtering
 * rendering logic
-
-Main responsibilities:
-
-* save viewed products
-* remove duplicates
 * exclude current product
 * filter unavailable items
 * generate recommendation UI
@@ -245,14 +240,8 @@ Using responsive CSS grid logic.
 ---
 
 
-
-
 # 📄 License
 
 MIT License
 
----
 
-# 👨‍💻 Author
-
-Built for Shopify theme personalization and frontend architecture learning.
