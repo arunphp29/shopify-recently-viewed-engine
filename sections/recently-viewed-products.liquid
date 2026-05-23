@@ -1,0 +1,43 @@
+<div class="recently-viewed-wrapper page-width">
+
+  <h2 class="recently-viewed-heading">
+    Recently Viewed
+  </h2>
+
+  <div
+    id="recently-viewed-products"
+    class="recently-viewed-grid"
+  ></div>
+
+</div>
+
+<script
+  type="application/json"
+  id="recently-viewed-product-data"
+>
+
+{
+  "id": {{ product.id | json }},
+  "handle": {{ product.handle | json }},
+  "title": {{ product.title | json }},
+  "url": {{ product.url | json }},
+  "image": {{ product.featured_image | image_url: width: 500 | json }},
+  "price": {{ product.price | json }},
+  "available": {{ product.available | json }},
+  "type": {{ product.type | json }},
+  "vendor": {{ product.vendor | json }}
+}
+
+</script>
+
+{% schema %}
+{
+  "name": "Recently Viewed Products",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Recently Viewed Products"
+    }
+  ]
+}
+{% endschema %}
