@@ -169,29 +169,7 @@ This stores viewed products inside browser localStorage to persist data between 
 
 ---
 
-# ⚡ Smart Recommendation Logic
 
-```javascript
-products = products.filter(
-  p => p.available
-);
-
-products = products.filter(
-  p => p.type === currentProduct.type
-);
-```
-
-This enables:
-
-* out-of-stock exclusion
-* category-aware recommendations
-
-Example:
-
-* viewed shoes → recommend shoes
-* viewed electronics → recommend electronics
-
----
 
 # 🚀 Installation Guide
 
@@ -263,47 +241,11 @@ The layout automatically adjusts for:
 
 Using responsive CSS grid logic.
 
----
-
-# 🔥 Advanced Improvements
-
-Future upgrades can include:
-
-## AI-like Recommendation Weighting
-
-Track:
-
-* frequency
-* recency
-* categories
 
 ---
 
-## Customer-Based Persistence
 
-Sync viewed products with customer accounts.
 
----
-
-## Analytics Dashboard
-
-Track:
-
-* most viewed products
-* recommendation clicks
-* engagement data
-
----
-
-# 📸 Preview
-
-Add screenshot:
-
-```bash
-screenshots.png
-```
-
----
 
 # 📄 License
 
