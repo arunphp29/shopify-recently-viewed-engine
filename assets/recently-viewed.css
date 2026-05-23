@@ -1,0 +1,52 @@
+.recently-viewed-wrapper {
+  margin-top: 60px;
+}
+
+.recently-viewed-heading {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+.recently-viewed-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.recently-viewed-card {
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s ease;
+  background: #fff;
+}
+
+.recently-viewed-card:hover {
+  transform: translateY(-4px);
+}
+
+.recently-viewed-card img {
+  width: 100%;
+  display: block;
+}
+
+.recently-viewed-title {
+  padding: 12px 12px 4px;
+  font-size: 15px;
+}
+
+.recently-viewed-price {
+  padding: 0 12px 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+  .recently-viewed-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
