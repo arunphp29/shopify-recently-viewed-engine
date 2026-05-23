@@ -35,8 +35,7 @@ The architecture can later evolve into:
 * AI recommendation systems
 * browsing analytics
 * customer personalization
-* loyalty-based recommendations
-* vendor-aware recommendations
+
 
 ---
 
@@ -92,7 +91,6 @@ Handles:
 * rendering logic
 * exclude current product
 * filter unavailable items
-* generate recommendation UI
 
 ---
 
