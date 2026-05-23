@@ -1,6 +1,8 @@
 # Shopify Recently Viewed Products Engine
 
 A lightweight personalization engine for Shopify themes that dynamically tracks customer browsing behavior and displays smart recently viewed product recommendations.
+<br>
+<strong>For More Detail check my <a href="https://www.linkedin.com/posts/arun-sharmadev_free-sample-product-system-in-shopify-ugcPost-7457491084336848896-YNBi?utm_source=share&utm_medium=member_desktop&rcm=ACoAABox1gsBoQ0sTWNME0hbr8qOwoj87ME6-BE">Linked Post</a></strong>
 
 This project demonstrates:
 
